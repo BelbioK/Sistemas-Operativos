@@ -12,3 +12,30 @@ Begin
     a = a/c;
 End
 
+
+VISTO EN CLASE
+
+3*a		b         c+d  e-f
+ \  /           \   /
+ 3*a*b  4.   (c+d)^(e-f)
+		\   /          |
+	 3*a*b+4        / 
+     \           /
+					division
+
+
+Begin
+    Cobegin
+				Begin
+        s1 := 3*a;
+        s2 := s1*b;
+        s3 := s2+4;
+				End
+				Begin
+        s4 := c+d;
+        s5 := e-f;
+					s6 := s4^s5;
+				End
+    Coend
+    s7 = s3/s6;
+End
