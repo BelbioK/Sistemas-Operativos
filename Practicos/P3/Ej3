@@ -1,0 +1,14 @@
+Begin
+    Cobegin
+        a = 3xa;
+        c = c+d;
+        e = e-f;
+    Coend
+    Cobegin
+        a = a*b;
+        c = c^e;
+    Coend
+    a = a+4;
+    a = a/c;
+End
+
