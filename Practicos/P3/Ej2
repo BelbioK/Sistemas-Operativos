@@ -22,18 +22,18 @@ END
 Begin
     total1 := 1;
     total2 := 2;
-    S1;
-    Fork L1;
-    Fork L2;
+    S1;             1
+    Fork L1;        2
+    Fork L2;        3
     S3;
 L3:
-    S6;
+    S6;             3?????
 L4:
     S9;
     Goto FIN;
 L1:
-    S2;
-    Fork L3;
+    S2;             2
+    Fork L3;        3
     S5;
     S8;
     Join total1 FIN;
