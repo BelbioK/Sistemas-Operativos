@@ -1,0 +1,28 @@
+      j k
+      l m
+      n o
+a b c 
+d e f
+g h i
+
+
+S1        S2
+aj+bl+cn  ak+bm+co
+
+S3        S4
+dj+el+fn  dk+em+fo
+
+S5        S6
+gj+hl+in  gk+hm+io
+
+Begin
+    Cobegin
+        S1
+        S2
+        S3
+        S4
+        S5
+        S6
+    Coend
+End
+
