@@ -43,6 +43,26 @@ End
 
 
 Begin
-	
+	c1 := 2;
+	c2 := 2;
+	Fork L2;
+L1:
+	s1 := 3*a;
+	s2 := s1*b;
+	s3 := s2+4;
+	Join c1 FIN;
+L2:
+	Fork L3;
+	s4 := c+d;
+	Join c2 L4;
+L3: 
+	s5 := e-f;
+	Join c2 L4;
+L4:
+	s6 := s4^s5;
+	Join c1 FIN;
 
+FIN:
+	s7 := s3/s6;
+	
 End
