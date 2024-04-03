@@ -1,0 +1,46 @@
+(a)
+Begin
+    total1 := 1;
+    total2 := 2;
+    S1;
+    Fork L1;
+    S3;
+    Fork L2;
+    S5
+    Goto FIN;
+L1:
+    S2;
+    Join total2 FIN;
+L2: 
+    S4;
+    Join total1 FIN;
+FIN:
+    S6;
+END
+
+(b)
+Begin
+    total1 := 1;
+    total2 := 2;
+    S1;
+    Fork L1;
+    Fork L2;
+    S3;
+L3:
+    S6;
+L4:
+    S9;
+    Goto FIN;
+L1:
+    S2;
+    Fork L3;
+    S5;
+    S8;
+    Join total1 FIN;
+L2:
+    S4
+    S7
+    Fork L4;
+    S10;
+    Join total1 FIN;
+FIN:

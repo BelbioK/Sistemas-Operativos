@@ -1,0 +1,19 @@
+(a) 
+Begin
+    S1
+    Cobegin
+        S2
+        Begin
+            S3
+            Cobegin
+                S4
+                S5
+            Coend
+        End
+    Coend
+    S6
+End
+
+
+
+(b) No es posible representarlo

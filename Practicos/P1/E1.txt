@@ -1,0 +1,57 @@
+(a) Un sistema operativo es un programa que está dedicado a brindarle una interfaz al usuario para interactuar con el hardware. Sus principales tareas son:
+    • Ejecución de programas y administración de procesos.
+    • Operaciones de Entrada/Salida.
+    • Manipulación de sistemas de archivos.
+    • Comunicación entre procesos.
+    • Detección y manipulación de errores (excepciones).
+
+
+
+
+(b) • Administración de procesos.
+    • Administración de memoria.
+    • Subsistema de Entrada/Salida.
+    • Administración de almacenamiento secundario.
+    • Subsistema de archivos.
+    • Subsistema de red.
+    • Sistema de protección
+
+(c) Lo mismo que la (a)
+
+(d) 
+    - Debe ser capaz de crear y destruir procesos
+    - Debe proveer un mecanismo para que los procesos puedan
+    comunicarse entre sí
+    - Debe permitir la sincronización de procesos que trabajan en conjunto
+
+(e) 
+    - El sistema deberá administrar el lugar libre y ocupado, decidir que proceso podrá comenzar cuándo es cargado en memoria.
+    -
+    -
+
+(f) 
+    • Se deberá proveer acceso al sistema de archivos.
+
+    • El sistema operativo es responsable de las siguientes
+    actividades:
+        • Administrar el espacio libre.
+        • Asignación del lugar de la información.
+        • Algoritmos de planificación de disco.
+        • Proporciona una vista uniforme de todas las formas de
+        almacenamiento en los diferentes dispositivos
+        implementando el concepto de archivo como una
+        colección arbitraria de bytes u otras clases o
+        organizaciones más sofisticadas.
+
+    • Implementará los métodos de:
+        • Abrir, cerrar, extender y borrar archivos
+        • Leer, escribir archivos
+        • Crear y borrar directorios
+
+
+
+Ejercicio 2:
+    - Se tienen varios procesos en ejecución al mismo tiempo
+
+
+Ejercicio 3:
